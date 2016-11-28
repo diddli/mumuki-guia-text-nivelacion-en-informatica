@@ -1,0 +1,1 @@
+> ¿El campo calculado qué puede tener como resultado?

@@ -1,0 +1,20 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- value: "a.\t1 ó 0"
+  checked: false
+- value: "b.\t3536 o Perú"
+  checked: false
+- value: "c.\tVerdadero ó Falso"
+  checked: false
+- value: "d.\t=min(A1:A356)"
+  checked: false
+- value: "e.\ta y c"
+  checked: true
