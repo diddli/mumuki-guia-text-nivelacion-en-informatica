@@ -1,0 +1,5 @@
+Copyright Flavio Flores and contributors
+
+This content consists of voluntary contributions made by many
+individuals. For exact contribution history, see its revision history
+available at https://github.com/diddli/mumuki-guia-text-nivelacion-en-informatica and the AUTHORS.txt file.
