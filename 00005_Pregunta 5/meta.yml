@@ -1,0 +1,18 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- value: "a.\tLa función Si + La función contar"
+  checked: false
+- value: "b.\tLa función Si + La función Contar (más de una vez)"
+  checked: true
+- value: "c.\tLa función contar + La función Si"
+  checked: false
+- value: "d.\tLa función Contar (más de una vez) + la función Si"
+  checked: false

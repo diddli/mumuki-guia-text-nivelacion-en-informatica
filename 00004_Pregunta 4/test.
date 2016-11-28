@@ -1,0 +1,2 @@
+---
+equal: "b.\t=Espacios(Sustituir(A1,Carácter(160),” “))"

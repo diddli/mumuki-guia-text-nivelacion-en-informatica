@@ -1,0 +1,18 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- value: "a.\t=Espacios(sustituir(A1,carácter(160),””))"
+  checked: false
+- value: "b.\t=Espacios(Sustituir(A1,Carácter(160),” “))"
+  checked: true
+- value: "c.\t=sustituir(sustituir(A1,Carácter(160),” “),” “,””)"
+  checked: false
+- value: "d.\tN.A"
+  checked: false
