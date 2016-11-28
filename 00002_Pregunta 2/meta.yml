@@ -1,0 +1,19 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- value: "a.\tCuando se tiene todos los datos que necesito comprar en la base de datos"
+  checked: false
+- value: "b.\tCuando no tengo el dato en mi base de datos"
+  checked: false
+- value: "c.\tCuando necesito comparar algo con algo y no tengo el dato en mi Base
+    de datos"
+  checked: false
+- value: "d.\tTodas las anteriores"
+  checked: true

@@ -1,0 +1,1 @@
+> ¿En qué casos se usa un campo Calculado?
