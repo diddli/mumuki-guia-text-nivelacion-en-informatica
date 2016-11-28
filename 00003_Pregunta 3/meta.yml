@@ -1,0 +1,18 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- value: "a.\tEl dato es fijo pero mis columnas varían entre sí"
+  checked: false
+- value: "b.\tEl dato es variable pero mis columnas son fijas"
+  checked: false
+- value: "c.\tEl dato y las columnas son variables"
+  checked: false
+- value: "d.\tTodas  las anteriores"
+  checked: true
