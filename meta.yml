@@ -3,7 +3,7 @@ name: Nivelación en Informática
 locale: es
 type: practice
 beta: false
-teacher_info: Nive Info
+teacher_info: ''
 language: text
 id_format: '%05d'
 order: []
