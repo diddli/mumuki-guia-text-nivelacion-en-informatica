@@ -8,13 +8,18 @@ language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- value: "a.\t1 ó 0"
+- !ruby/hash:BSON::Document
+  value: "a.\t1 ó 0"
   checked: false
-- value: "b.\t3536 o Perú"
+- !ruby/hash:BSON::Document
+  value: "b.\t3536 o Perú"
   checked: false
-- value: "c.\tVerdadero ó Falso"
+- !ruby/hash:BSON::Document
+  value: "c.\tVerdadero ó Falso"
   checked: false
-- value: "d.\t=min(A1:A356)"
+- !ruby/hash:BSON::Document
+  value: "d.\t=min(A1:A356)"
   checked: false
-- value: "e.\ta y c"
+- !ruby/hash:BSON::Document
+  value: "e.\ta y c"
   checked: true

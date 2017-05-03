@@ -8,11 +8,15 @@ language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- value: "a.\tLa función Si + La función contar"
+- !ruby/hash:BSON::Document
+  value: "a.\tLa función Si + La función contar"
   checked: false
-- value: "b.\tLa función Si + La función Contar (más de una vez)"
+- !ruby/hash:BSON::Document
+  value: "b.\tLa función Si + La función Contar (más de una vez)"
   checked: true
-- value: "c.\tLa función contar + La función Si"
+- !ruby/hash:BSON::Document
+  value: "c.\tLa función contar + La función Si"
   checked: false
-- value: "d.\tLa función Contar (más de una vez) + la función Si"
+- !ruby/hash:BSON::Document
+  value: "d.\tLa función Contar (más de una vez) + la función Si"
   checked: false

@@ -8,11 +8,15 @@ language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- value: "a.\t=Espacios(sustituir(A1,carácter(160),””))"
+- !ruby/hash:BSON::Document
+  value: "a.\t=Espacios(sustituir(A1,carácter(160),””))"
   checked: false
-- value: "b.\t=Espacios(Sustituir(A1,Carácter(160),” “))"
+- !ruby/hash:BSON::Document
+  value: "b.\t=Espacios(Sustituir(A1,Carácter(160),” “))"
   checked: true
-- value: "c.\t=sustituir(sustituir(A1,Carácter(160),” “),” “,””)"
+- !ruby/hash:BSON::Document
+  value: "c.\t=sustituir(sustituir(A1,Carácter(160),” “),” “,””)"
   checked: false
-- value: "d.\tN.A"
+- !ruby/hash:BSON::Document
+  value: "d.\tN.A"
   checked: false

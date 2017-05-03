@@ -8,11 +8,15 @@ language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- value: "a.\tEl dato es fijo pero mis columnas varían entre sí"
+- !ruby/hash:BSON::Document
+  value: "a.\tEl dato es fijo pero mis columnas varían entre sí"
   checked: false
-- value: "b.\tEl dato es variable pero mis columnas son fijas"
+- !ruby/hash:BSON::Document
+  value: "b.\tEl dato es variable pero mis columnas son fijas"
   checked: false
-- value: "c.\tEl dato y las columnas son variables"
+- !ruby/hash:BSON::Document
+  value: "c.\tEl dato y las columnas son variables"
   checked: false
-- value: "d.\tTodas  las anteriores"
+- !ruby/hash:BSON::Document
+  value: "d.\tTodas  las anteriores"
   checked: true

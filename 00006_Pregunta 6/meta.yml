@@ -8,11 +8,15 @@ language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- value: "a.\tHorizontal (Tienes en tus filas encabezados)"
+- !ruby/hash:BSON::Document
+  value: "a.\tHorizontal (Tienes en tus filas encabezados)"
   checked: false
-- value: "b.\tVertical (Tienes en tus columnas Encabezados)"
+- !ruby/hash:BSON::Document
+  value: "b.\tVertical (Tienes en tus columnas Encabezados)"
   checked: true
-- value: "c.\tSolo a y b"
+- !ruby/hash:BSON::Document
+  value: "c.\tSolo a y b"
   checked: false
-- value: "d.\tN.A"
+- !ruby/hash:BSON::Document
+  value: "d.\tN.A"
   checked: false
